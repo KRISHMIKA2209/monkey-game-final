@@ -61,7 +61,7 @@ function setup() {
   
   //To create ground sprite
   ground=createSprite(width/2,height-42,1200,8);
-  //ground.addImage(ground_img);
+  ground.addImage(ground_img);
   
   //To declare new Groups
   foodGroup=new Group();
